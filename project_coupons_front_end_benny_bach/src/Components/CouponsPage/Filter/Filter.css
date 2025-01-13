@@ -1,0 +1,31 @@
+.Filter {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.Filter h3{
+    border-bottom: 1px solid black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Categories {
+    display: flex;
+    gap: 1rem;
+}
+
+.SelectBox {
+    
+}
+
+.Slider {
+    display: flex;
+    flex-direction: column;
+}
+.Slider input{
+    color: var(--secondary-color);
+}

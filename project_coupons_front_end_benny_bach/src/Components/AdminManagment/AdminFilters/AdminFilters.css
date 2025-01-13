@@ -1,0 +1,8 @@
+.AdminFilters {
+	display: flex;
+    justify-content: center;
+}
+.AdminFilters button {
+	background-color: var(--secondary-color);
+    color: white;
+}

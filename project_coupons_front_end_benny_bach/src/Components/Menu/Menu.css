@@ -1,0 +1,38 @@
+.Menu {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;      
+}
+
+.Menu .menu-b{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+.Menu .menu-b:hover{
+    color :var(--secondary-color);
+    transition: 0.3s;
+    font-size: 2rem;
+}
+
+.Menu .menu-bx{
+    background: none;
+    
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+.Menu .menu-bx:hover{
+    color :var(--secondary-color);
+    transition: 0.3s;
+    font-size: 2rem;
+}

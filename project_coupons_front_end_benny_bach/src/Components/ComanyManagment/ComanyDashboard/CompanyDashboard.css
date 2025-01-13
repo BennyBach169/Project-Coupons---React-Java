@@ -1,0 +1,13 @@
+.ComanyDashboard {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}

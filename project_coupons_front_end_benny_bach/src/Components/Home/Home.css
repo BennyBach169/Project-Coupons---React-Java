@@ -1,0 +1,39 @@
+.Home {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Cate{
+    margin-top: 5rem;
+    color: var(--secondary-color);
+    margin: none;
+    padding: none;
+    font-size: 55px;
+}
+
+.Part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    padding: none;
+    font-size: 60px;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.196);
+    gap: 1rem;
+    padding: 2rem;
+    background: linear-gradient(to right, var(--secondary-color), #9c27b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Part div{
+    background: rgb(88, 87, 87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: none;
+    font-size: 25px;
+}
+
+

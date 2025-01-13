@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  overflow: auto; 
+}
+
+
+
+.App.test.Header{
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+}

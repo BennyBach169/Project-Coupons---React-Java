@@ -1,0 +1,45 @@
+.Login {
+	background-color: var(--secondary-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: none;
+}
+
+ .header{
+    font-size: 2rem;
+    color: white;
+ }
+
+.loginContainer form{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: 5rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.505);
+
+}
+
+.MuiFormControlLabel-root {
+    color: black; /* Text color */
+}
+
+.MuiRadio-root .MuiSvgIcon-root {
+    color: var(--secondary-color); /* Circle color */
+}
+
+.MuiRadio-root.Mui-checked .MuiSvgIcon-root {
+    color: var(--secondary-color); /* Circle color when checked */
+}
+
+.label {
+    font-size: 12px
+}

@@ -1,0 +1,87 @@
+.Social {
+  display: flex;
+  width: 220px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-radius: 115px;
+  padding-inline: 15px;
+  position: relative;
+  justify-content: space-around;
+  
+}
+
+.social-icons {
+    cursor: pointer;
+    display: flex;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  .social-icons > p {
+    --var: -0%;
+    position: absolute;
+    top: var(--var);
+    transition: all 0.5s;
+    background-color: dodgerblue;
+    border-radius: 7px;
+    opacity: 0;
+    padding-inline: 7px;
+    padding-block: 3px;
+    width: max-content;
+  }
+  .social-icons > p::after {
+    content: "";
+    position: absolute;
+    border-top: 10px solid dodgerblue;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .social-icons > a {
+    --var: -0%;
+    position: absolute;
+    bottom: var(--var);
+    width: max-content;
+    transition: all 0.5s;
+    opacity: 0;
+    padding-inline: 7px;
+    padding-block: 3px;
+    background-color: crimson;
+    border-radius: 7px;
+  }
+  .social-icons > a::after {
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid crimson;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .social-icons:hover > a,
+  .social-icons:hover > p {
+    --var: -65%;
+    opacity: 1;
+  }
+  
+  .social-icons:hover {
+    z-index: 15;
+  }
+  
+  .Social:hover > .social-icons:not(:hover) {
+    filter: blur(3px);
+    transform: scale(0.8);
+  }
+  
+  .Social svg {
+    height: 30px;
+  }

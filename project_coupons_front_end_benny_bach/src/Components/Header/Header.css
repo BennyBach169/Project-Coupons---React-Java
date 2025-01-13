@@ -1,0 +1,76 @@
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  
+}
+
+.Header .Menu{
+flex-grow: 1;
+align-items: center;
+justify-content: center;
+}
+
+.login{
+  color: white;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 6rem;
+  border: 3px solid var(--secondary-color);
+  border-radius: 4px;
+  margin-right: 1rem;
+  
+}
+.Header .login:hover{
+  color :var(--secondary-color);
+  background-color: white;
+  transition: 0.3s;
+  font-size: 2rem;
+}
+
+.logo img{
+  height: 6rem;
+  width: 6rem;
+  margin-left: 1rem;
+  margin-right: 4rem;
+  color: #6653a46c;
+}
+
+
+.logout{
+  color: white;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-decoration: none;
+  width: 6rem;
+  border: 3px solid var(--secondary-color);
+  border-radius: 4px;
+  margin-right: 1rem;
+  
+}
+.Header .logout:hover{
+  
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.Header .cart{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 1rem;
+  width: 3rem;
+}
+  
+
+

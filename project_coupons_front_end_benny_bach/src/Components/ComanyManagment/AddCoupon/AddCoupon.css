@@ -1,0 +1,155 @@
+.AddCoupon{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 2rem;
+}
+
+.AddCoupon #back{
+    background: none;
+    border: none;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+    border-bottom: 1px solid black;
+}
+
+.AddCoupon #header{
+    font-size: 30px;
+    margin: 1rem;
+    padding: none;
+    font-style: bold;
+}
+
+.AddCoupon .form {
+    min-height: 100vh;
+    margin-left: 1rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+
+
+
+.AddCoupon #row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin: 1rem;
+}
+
+.AddCoupon #row1 span {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    gap: 0.5rem; 
+    
+}
+
+.AddCoupon #row1 .input,
+.AddCoupon #row1 .select {
+    border: 1px solid var(--secondary-color);
+    width: 250px;
+    font-size: 18px; 
+    padding: 5px; 
+    line-height: normal;
+}
+
+
+.AddCoupon #row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start; 
+}
+
+.AddCoupon #row2 span {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    gap: 0.5rem; 
+}
+
+.AddCoupon #row2 .input {
+    border: 1px solid var(--secondary-color);
+    width: 250px;
+    font-size: 18px; 
+    padding: 5px; 
+    line-height: normal; 
+}
+ 
+
+
+.AddCoupon .dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 261px;
+    gap: 0.5rem;
+}
+
+.AddCoupon .dates span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem; 
+}
+
+.AddCoupon .dates input {
+    border: 1px solid var(--secondary-color);
+    width: 125px;
+    font-size: 18px;
+    padding: 5px;
+    line-height: normal;
+}
+
+.AddCoupon .descriptiocContain {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    gap: 0.5rem; 
+}
+
+.AddCoupon .descriptiocContain .description{
+    border: 1px solid var(--secondary-color);
+    width: 500px;
+    height: 150px;
+    font-size: 18px; 
+    padding: 5px; 
+    line-height: normal; 
+}
+
+.AddCoupon #action2{
+    color: white;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 4px;
+    margin-right: 1rem;
+    
+  }
+  .AddCoupon #action2:hover{
+    color :var(--secondary-color);
+    background-color: white;
+    transition: 0.3s;
+    font-size: 1.5rem;
+  }
+
